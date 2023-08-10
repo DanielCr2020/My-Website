@@ -1,12 +1,13 @@
 import Image from 'next/image'
-import styles from './styles.module.css'
+import '@/globals.css'
+import styles from '@/styles.module.css'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Hello! My name is Daniel Craig!</p>
+        <p>About page. Hello! My name is Daniel Craig!</p>
       </div>
 
       <div className={styles.center}>
@@ -20,7 +21,7 @@ export default function Home() {
         />
       </div>
 
-      <Link href="/about">hi</Link>
+      <Link href="/">Home</Link>
 
       <div className={styles.grid}>
 

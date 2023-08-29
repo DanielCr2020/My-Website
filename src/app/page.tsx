@@ -1,30 +1,24 @@
 import Image from 'next/image'
-import styles from './styles.module.css'
+import './styles.css'
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>Hello! My name is Daniel Craig!</p>
-      </div>
-
-      <div className={styles.center}>
+    <main className="main">
+      <h1>Hello! My name is Daniel Craig!</h1>
+      <div className="image-container">
+        <div className="description-text">
+          I am a senior Computer Science major at Stevens Institute of Technology
+        </div>
         <Image
-          // className={styles.logo}
           src="/Daniel.jpg"
-          alt="Daniel Craig Logo"
+          alt="Daniel Craig"
           width={300}
           height={300}
           priority
         />
       </div>
-
-      <Link href="/about">hi</Link>
-
-      <div className={styles.grid}>
-
-      </div>
+      <Link href="/about">About me (wip)</Link>
     </main>
   )
 }

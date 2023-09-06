@@ -8,7 +8,7 @@ export default function Home() {
       <h1>Hello! My name is Daniel Craig!</h1>
       <div className="image-container">
         <div className="description-text">
-          I am a senior Computer Science major at Stevens Institute of Technology
+          I am a senior Computer Science major at Stevens Institute of Technology.
         </div>
         <Image
           src="/Daniel.jpg"
@@ -18,6 +18,8 @@ export default function Home() {
           priority
         />
       </div>
+      <Link href="https://github.com/UnrealOG" target="_blank">GitHub</Link><br/>
+      <Link href="https://www.linkedin.com/in/daniel-craig-395085210/" target="_blank">LinkedIn</Link><br/>
       <Link href="/about">About me (wip)</Link>
     </main>
   )

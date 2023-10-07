@@ -8,7 +8,7 @@ export default function Home() {
       <h1>Hello! My name is Daniel Craig!</h1>
       <div className="image-container">
         <div className="description-text">
-          I am a senior Computer Science major at Stevens Institute of Technology.
+          I am a senior Computer Science major at Stevens Institute of Technology. I enjoy Systems Programming and other low-level computer science topics.
         </div>
         <Image
           src="/Daniel.jpg"

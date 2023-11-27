@@ -8,18 +8,27 @@
     padding: 2px;
     min-height: 20vh;
     font-family: 93;
+    display: flexbox;
+    flex-direction: column;
 }
 
-h1 {
+h2.title {
     font-size: 40px;
     font-family:'Segoe Print', 'Arial Narrow', Arial, sans-serif;
     font-weight: 20;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .image-container {
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: right;
     margin-top: 20px;
     margin-left: auto;
     margin-right: 10px;

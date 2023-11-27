@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className="main">
       <div className="description">
-        <p>You&apos;ve reached the about page! My name is still Daniel Craig!</p>
-        <p>This page (and the whole website for that matter) is a work in progress!</p>
+        <p>You have reached the about page! My name is still Daniel Craig!</p>
+        <p>My website is under construction</p>
       </div>
 
       <div className="center">

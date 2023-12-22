@@ -14,7 +14,7 @@ export default function Home() {
       <h2 className="title">Hello! My name is Daniel Craig!</h2>
         <p className="description-text">
           I am a senior Computer Science major at Stevens Institute of Technology. I enjoy Systems Programming and other low-level computer science topics.
-          I am familiar with C, Python, Javascript, Java, Bash, OCaml, as well as some more languages.
+          I am most familiar with C, Javascript, Java, Python, and OCaml, though I also have some experience with Bash, C++, C#, and LLVM IR.
         </p>
         <p className="description-text">
           I have taken Systems Programming, Operating Systems, Compiler Design and Implementation, as well as 

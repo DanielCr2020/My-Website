@@ -13,16 +13,12 @@ export default function Home() {
       <h1>Website under construction</h1>
       <h2 className="title">Hello! My name is Daniel Craig!</h2>
         <p className="description-text">
-          I am a senior Computer Science major at Stevens Institute of Technology. I enjoy Systems Programming and other low-level computer science topics.
+          I am a 2024 Computer Science graduate from Stevens Institute of Technology. I enjoy Systems Programming and other low-level computer science topics.
           I am familiar with C, Python, Javascript, Java, Bash, OCaml, as well as some more languages.
         </p>
         <p className="description-text">
-          I have taken Systems Programming, Operating Systems, Compiler Design and Implementation, as well as 
-          Web Programming I and II.
-        </p>
-        <p className="description-text">
-          In Spring 2024, I will be taking Parallel Programming for Many Core Processors, Systems Administration,
-          and Systems Security
+          I have taken Systems Programming, Systems Administration, Systems Security, Operating Systems, Compiler Design and Implementation, Parallel Programming for Many Core Processors, as well as 
+          Web Programming I and II. 
         </p>
       <div className="center">
         <Image

@@ -21,7 +21,8 @@ h2.title {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .image-container {
@@ -36,10 +37,10 @@ header {
 
 .description-text {
     font-size: 24px;
-    text-align: left;
-    margin-right: auto;
+    text-align: center;
+    margin-right: 10px;
     margin-left: 10px;
-    align-items: left;
+    align-items: center;
 }
 
 

@@ -36,7 +36,7 @@ export default function Home() {
             Github
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/daniel-craig-395085210/" target="_blank">
+        <a href="https://www.linkedin.com/in/daniel-r-craig/" target="_blank">
           <button className="link-button">
             LinkedIn
           </button>

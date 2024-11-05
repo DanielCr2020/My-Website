@@ -6,22 +6,13 @@ export default function Home() {
   return (
     <main className="main">
       <div className="description">
-        <p>You have reached the about page! My name is still Daniel Craig!</p>
-        <p>My website is under construction</p>
+        <p className='description-text'>
+          I am a programmer, computer scientist, tech enthusiast, car enthusiast, Eagle Scout, and much more.
+        </p>
+        <p className='description-text'>
+          
+        </p>
       </div>
-
-      <div className="center">
-        <Image
-          // className={styles.logo}
-          src="/Daniel.jpg"
-          alt="Daniel Craig Logo"
-          width={300}
-          height={300}
-          priority
-        />
-      </div>
-
-      <Link href="/">Home</Link>
 
     </main>
   )

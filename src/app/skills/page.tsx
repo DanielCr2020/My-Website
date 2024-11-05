@@ -6,12 +6,11 @@ export default function Home() {
   return (
     <main className="main">
       <div className="description">
-        <p>This website is a work in progess</p>
-        <p>C, Java, Javascript</p>
+        <p className='description-text'>
+          Programming. C, Java, and Javascript are my strongest languages.
+          I also have experience with Python, Cuda, C++, OCaml, and SQL.
+        </p>
       </div>
-
-
-      <Link href="/">Home</Link>
 
     </main>
   )

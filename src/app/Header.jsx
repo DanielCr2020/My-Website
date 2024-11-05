@@ -4,10 +4,21 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    // <div className='center-div'>
       <header>
         <a href="/">
           <button className="link-button"> 
             Home
+          </button>
+        </a>
+        <a href="/about">
+          <button className="link-button"> 
+            About&nbsp;me
+          </button>
+        </a>
+        <a href="/courses">
+          <button className="link-button"> 
+            Courses
           </button>
         </a>
         <a href="/projects">
@@ -20,11 +31,6 @@ export default function Home() {
             Skills
           </button>
         </a>
-        <a href="/about">
-          <button className="link-button"> 
-            About&nbsp;me
-          </button>
-        </a>
         <a href="https://github.com/DanielCr2020" target="_blank">
           <button className="link-button"> 
             Github
@@ -35,6 +41,9 @@ export default function Home() {
             LinkedIn
           </button>
         </a>
+      <br/>
+      <h2>Website under construction</h2>
       </header>
+    // </div>
   )
 }

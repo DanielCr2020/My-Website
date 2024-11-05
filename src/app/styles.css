@@ -9,8 +9,12 @@
     padding: 2px;
     min-height: 20vh;
     font-family: 93;
-    display: flexbox;
-    flex-direction: column;
+    /* display: flexbox; */
+    /* flex-direction: column; */
+}
+
+.center-div {
+    text-align: center;
 }
 
 h2.title {
@@ -20,11 +24,12 @@ h2.title {
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+    display: flexbox;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    justify-content:space-between;
     /* align-items: center; */
-    margin-inline: 5%;
+    text-align: center;
 }
 
 .image-container {
@@ -37,30 +42,47 @@ header {
     margin-right: 10px;
 }
 
-.description-text {
+p {
     font-size: 24px;
     text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
     align-items: center;
+    max-width: 80ch;
+    
 }
+
+/* .description {
+    border: 3px solid green;
+    margin-left: auto;
+} */
 
 a {
     color:var(--link-color);
     font-size: 20px;
+    /* text-align: justify; */
+    margin:20px;
+}
+
+p.left-p {
+    text-align: left;
 }
 
 .link-button {
     font-size: 20px;
+    flex-wrap: wrap;
     color:white;
     background-color: var(--button-color);
     border-width:4px;
     border-radius: 8px;
     border-color: var(--button-color);
     border-style: solid;
-    padding-inline: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-inline: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* text-align: justify; */
+    /* margin-block: 20px; */
+    /* margin-inline-end:20px; */
 }
 
 .link-button:hover {

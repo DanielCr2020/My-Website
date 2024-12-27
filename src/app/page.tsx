@@ -28,7 +28,7 @@ export default function Home() {
           Parallel Programming for Many Core Processors, as well as Web Programming I and II. 
         </p>
       </div>
-      <div className="center-div">
+      {/* <div className="center-div">
         <Image
           src="/Daniel.jpg"
           alt="Daniel Craig"
@@ -36,7 +36,7 @@ export default function Home() {
           height={250}
           priority
         />
-      </div>
+      </div> */}
     </main>
   )
 }

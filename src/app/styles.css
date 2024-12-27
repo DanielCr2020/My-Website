@@ -68,7 +68,7 @@ p.left-p {
     text-align: left;
 }
 
-.link-button {
+button {
     font-size: 20px;
     flex-wrap: wrap;
     color:white;
@@ -85,8 +85,11 @@ p.left-p {
     /* margin-inline-end:20px; */
 }
 
-.link-button:hover {
+button:hover {
     border-color: white;
     transition: 150ms;
-    /* transform: translateY(-10px); */
+}
+
+button:active {
+    box-shadow:none;
 }

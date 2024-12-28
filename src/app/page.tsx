@@ -17,15 +17,18 @@ export default function Home() {
         </p>
         <p className='description-text'>
           As of Fall of 2024, I am pursuing my graduate Computer Science education at Rutgers 
-          University-New Brunswick.
+          University - New Brunswick.
         </p>
         <p className="description-text">
           I also enjoy programming on a slightly higher level, such as game development, web development, and desktop
           app development.
         </p>
         <p className="description-text">
-          I have taken Systems Programming, Systems Administration, Systems Security, Operating Systems, Compiler Design and Implementation, 
-          Parallel Programming for Many Core Processors, as well as Web Programming I and II. 
+          This website is a simple NextJS 13 project with simple CSS. It is hosted on Vercel.
+        </p>
+        <p className="description-text">
+          To learn more, please check out the other pages by clicking the buttons on the top of the page.
+          The GitHub and LinkedIn buttons open links in new tabs.
         </p>
       </div>
       {/* <div className="center-div">

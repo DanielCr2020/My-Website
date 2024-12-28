@@ -9,12 +9,35 @@
     padding: 2px;
     min-height: 20vh;
     font-family: 93;
-    /* display: flexbox; */
-    /* flex-direction: column; */
 }
 
 .center-div {
     text-align: center;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: 20ch 50ch 5ch;
+    /* flex-direction: row; */
+    /* align-content: space-between; */
+    overflow: hidden;
+    gap: 0px;
+    font-size: 24px;
+    /* text-align: center; */
+    margin-right: auto;
+    margin-left: auto;
+    /* align-items: center; */
+    max-width: 90ch;
+}
+
+.project-p-width {
+    width: 50ch;
+    text-align: left;
+}
+
+.project-h3-width {
+    width:15ch;
+    text-align: left;
 }
 
 h2.title {
@@ -28,7 +51,6 @@ header {
     flex-wrap: wrap;
     column-gap: 100px;
     justify-content:space-between;
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -52,15 +74,9 @@ p {
     
 }
 
-/* .description {
-    border: 3px solid green;
-    margin-left: auto;
-} */
-
 a {
     color:var(--link-color);
     font-size: 20px;
-    /* text-align: justify; */
     margin:20px;
 }
 

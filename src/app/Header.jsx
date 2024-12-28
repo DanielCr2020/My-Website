@@ -13,17 +13,17 @@ export default function Header() {
       <Link href="/" onClick={()=>setPage("Home")}>
         <Button className={page}>Home</Button>
       </Link>
-      <Link href="/about" onClick={()=>setPage("About me")}>
+      {/* <Link href="/about" onClick={()=>setPage("About me")}>
         <Button className={page}>About me</Button>
-      </Link>
-      <Link href="/courses" onClick={()=>setPage("Courses")}>
-        <Button className={page}>Courses</Button>
-      </Link>
+      </Link> */}
       <Link href="/projects" onClick={()=>setPage("Projects")}>
         <Button className={page}>Projects</Button>
       </Link>
       <Link href="/skills" onClick={()=>setPage("Skills")}>
         <Button className={page}>Skills</Button>
+      </Link>
+      <Link href="/courses" onClick={()=>setPage("Courses")}>
+        <Button className={page}>Courses</Button>
       </Link>
       <Link href="https://github.com/DanielCr2020" target="_blank">
         <Button className={page}>Github</Button>

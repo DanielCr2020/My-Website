@@ -5,12 +5,10 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="main">
-      <div className="description">
-        <p className='description-text'>
-          Programming. C, Java, and Javascript are my strongest languages.
-          I also have experience with Python, Cuda, C++, OCaml, and SQL.
-        </p>
-      </div>
+      <p className='description-text'>
+        Programming. C, Java, and Javascript are my strongest languages.
+        I also have experience with Python, Cuda, C++, OCaml, and SQL.
+      </p>
 
     </main>
   )

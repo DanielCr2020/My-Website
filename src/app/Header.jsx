@@ -5,9 +5,17 @@ import '@/styles.css'
 import Link from 'next/link'
 import Button from './Button'
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
-  const [page, setPage] = useState("Home");
+  const pageStates = {
+    "/": "Home",
+    "/projects": "Projects",
+    "/skills": "Skills",
+    "/courses": "Courses"
+  }
+  const pathname = usePathname();
+  const [page, setPage] = useState(pageStates[pathname]);
   return (
     <header>
       <Link href="/" onClick={()=>setPage("Home")}>
